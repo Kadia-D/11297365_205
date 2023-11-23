@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+        COMPUTER SCIENCE DEPARTMENT,UG.
+    </title>
+    <meta chartset = "UTF-8">
+    <meta name = "viewport"
+    content = "width= device-width, initial scale = 1.0">
+    <style>
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: auto;
+        background: url(images/ug\ pic.jpg) center/cover no-repeat;
+        image-rendering: pixelated;
+        backdrop-filter:contrast(70%) ;
+        z-index:0;
+      }
+      
+      .rectangle{
+        border:2px #bd9c6c ;
+        position: bottom;
+        bottom: 0%;
+        left: 0%;
+        width:100%;
+        background-color: rgb(3, 3, 68);
+        z-index: 2;
+        color: aliceblue;
+      }
+
+      
+      
+      .box{
+        border: 2px solid rgb(3, 3, 68);
+        border-radius: 20px;
+        padding:8px;
+        margin: 10px;
+        margin-bottom: 90px;
+        margin-top: 80px;
+        background-color:#bd9c6c ;
+        height:200px;
+        width: 210px;
+        display: -webkit-inline-flex;
+        align-items: center;
+      }
+  
+      nav {
+        justify-content:space-between;
+        cursor:pointer;
+        background-color: rgb(3, 3, 68);
+        overflow:hidden;
+      }
+
+      nav ul li {
+        float :left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+      }
+  
+      nav a:hover{
+        color:#bd9c6c;
+        background-color:aliceblue;
+      }
+      .custom-text {
+        color: white;
+        font:  sans-serif;
+      font-weight: 200;  
+      font-size: medium; 
+     }
+      
+    
+  </style> 
+  </head>
+  <body>
+    <nav>
+      <div class = "navbar">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class = "menu">
+        <li><a href = "index.html">Home</a></li>
+        <li><a href = "contact.html">Contact</a></li>
+        <li><a href = "about.html">About</a></li>
+        <li><a href = "link">Admissions</a></li>
+        <li><a href = "research.html">Research</a></li>
+        <li><a href = "events.html">Events & Groups</a></li>
+        <li><a href = "gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+   
+  <span class ="custom-text">
+    <h1>WELCOME TO THE DEPARTMENT OF COMPUTER SCIENCE</h1>
+    <h3>Program your dreams into reality.</h3>
+
+    <p>Check out our available programmes below:</p>
+  </span>
+     
+    <div class = 'box'>
+      <h5>Short Courses</h5>
+        <p>Our eight week intensive certificate course is open to senior high school graduates, tertiary students, school graduates, workers and the general public.</p>
+    </div>
+
+    <div class = "box">
+      <h5>Undergraduate programmes</h5>
+       <p>Open the door to sought-after technology careers with a world-class Bachelor of Science in Computer Science</p>
+    </div>
+
+    <div class = "box">
+        <h5>MPhil and MSc. programmes</h5>
+        <p>Embrace world class graduate education with unique blend of cutting edge research and industry experience</p>
+    </div>
+
+    <div class ="box">
+        <h5>PhD programmes</h5>
+        <p>Our PhDs lead the effort to extend the boundaries of knowledge through quality and industry relevant research</p>
+    </div>
+
+    <div class = "rectangle">
+    <footer>
+      <p>Locate us on Legon Campus,opposite the department of Mathematics</p>
+      <details>
+        <summary>
+           Hear from us!
+        </summary>
+        <p>Subscribe to our newsletter
+          <form action = "/submit" method = "post">
+          <label for="email">Email</label>
+          ,<input type="email" name="email" id="email">
+          <input type="submit" value="submit">
+          </form>
+        </p>
+      </details>
+    </footer>
+    </div>
+    
+   
+  </body>
+</html>
