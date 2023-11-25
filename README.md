@@ -1,3 +1,4 @@
+
 Name:Kadia Della Dellor.
 ID:11297365
 
@@ -22,3 +23,6 @@ ID:11297365
 This project has taught me a lot of skills including, but not limited to;setting up git and github on my device. I've also learnt how to set up a repository, fork an already existing repository, and create a pull request. I now know how to commit changes in code on github.
    I've also learnt how to set up a website; from coding in html to designing in CSS.
   I've also become more familiar with git commands and their uses.
+
+Here are screenshots of my website.
+![IMG_1207](https://github.com/Kadia-D/11297365_205/assets/150976397/e5603b73-de17-4809-a458-f270df1f1a24)
