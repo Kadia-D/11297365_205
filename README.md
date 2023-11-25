@@ -6,6 +6,15 @@ ID:11297365
      It aims to connect people to the wealth of resources available in the department, and in the field of computer science as well. It contains relevant information and links to guide you to a successful computer science career.
 
      HOW TO CLONE AND SET UP THE PROJECT.
+1. Go to GitHub and log in.
+2. Click on the plus icon in the top right corner and select New Repository.
+3. Give your repository a name, a description(optional) and initialize with a ReadMe.
+4. Click on "Create Repository"
+5. Open terminal or command prompt on your machine and navigate to the directory where you want to store the project.
+6. Use the git clone command + the link to your repository.
+7. Now, change to your project directory where you can work on and make changes to the project.
+8. Periodically, stage and commit your changes using the 'git commit -m' command plus your message.
+9. Finally, you can push your changes to GitHub using 'git push' command.
 
 
 
